@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RETRO</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/1090f7f9e3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <style>
+        .mulish {
+            font-family: "Mulish", sans-serif;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>retro</h1>
+    <nav class="container mx-auto mt-5">
+        <div class="navbar bg-base-100 flex justify-between">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a><i class="fa-solid fa-house "></i></a></li>
+                        <li><a><i class="fa-solid fa-pen"></i></a></li>
+                        <li><a> <i class="fa-solid fa-user-plus"></i> </a></li>
+                        <li><a><i class="fa-solid fa-flag"></i></a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost mulish text-2xl text-[#12132D] font-black">RetRo</a>
+            </div>
+            <div class=" flex gap-6">
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 gap-3">
+                        <li class="border-2 rounded-full tooltip" data-tip="Home"><a><i class="fa-solid fa-house"></i></a></li>
+                        <li class="border-2 rounded-full tooltip" data-tip="Pen"><a><i class="fa-solid fa-pen"></i></a></li>
+                        <li class="border-2 rounded-full tooltip" data-tip="User"><a><i class="fa-solid fa-user-plus"></i></a></li>
+                        <li class="border-2 rounded-full tooltip" data-tip="Flag"><a><i class="fa-solid fa-flag"></i></a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end ">
+                    <a class="btn min-w-20 bg-[#797DFC] rounded-[50px]">Sign In</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <script src="Scripts/scripts.js"></script>
 </body>
+
 </html>
