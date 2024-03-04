@@ -1,0 +1,17 @@
+.mulish {
+  font-family: "Mulish", sans-serif;
+}
+
+.hero-section {
+    background-image: url(images/bgbanner.png);
+}
+
+.gradient-blue {
+    background: linear-gradient(to right, #797DFC, #122953);
+    background-clip: text;
+    color: transparent;
+}
+
+.btn-bg {
+    background-color: #797DFC;
+}

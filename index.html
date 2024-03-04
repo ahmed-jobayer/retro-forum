@@ -12,14 +12,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
-    <style>
-        .mulish {
-            font-family: "Mulish", sans-serif;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+
+    <!-- navigation bar -->
+
     <nav class="container mx-auto mt-5">
         <div class="navbar bg-base-100 flex justify-between">
             <div class="navbar-start">
@@ -44,21 +43,76 @@
             <div class=" flex gap-6">
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1 gap-3">
-                        <li class="border-2 rounded-full tooltip" data-tip="Home"><a><i class="fa-solid fa-house"></i></a></li>
-                        <li class="border-2 rounded-full tooltip" data-tip="Pen"><a><i class="fa-solid fa-pen"></i></a></li>
-                        <li class="border-2 rounded-full tooltip" data-tip="User"><a><i class="fa-solid fa-user-plus"></i></a></li>
-                        <li class="border-2 rounded-full tooltip" data-tip="Flag"><a><i class="fa-solid fa-flag"></i></a></li>
+                        <li class="border-2 rounded-full tooltip" data-tip="Home"><a><i
+                                    class="fa-solid fa-house"></i></a></li>
+                        <li class="border-2 rounded-full tooltip" data-tip="Pen"><a><i class="fa-solid fa-pen"></i></a>
+                        </li>
+                        <li class="border-2 rounded-full tooltip" data-tip="User"><a><i
+                                    class="fa-solid fa-user-plus"></i></a></li>
+                        <li class="border-2 rounded-full tooltip" data-tip="Flag"><a><i
+                                    class="fa-solid fa-flag"></i></a></li>
                     </ul>
                 </div>
                 <div class="navbar-end ">
-                    <a class="btn min-w-20 bg-[#797DFC] rounded-[50px]">Sign In</a>
+                    <a class="btn min-w-20 btn-bg rounded-[50px]">Sign In</a>
                 </div>
             </div>
         </div>
     </nav>
 
+    <main class="container mx-auto ">
+        <!-- hero section -->
 
+        <section >
+            <div class="hero-section bg-[#12132D] container mt-14 mb-24 bg-cover rounded-[32px] p-24">
+                <div class="hero-content flex justify-between ">
+                    <div class="flex flex-col gap-6">
+                        <h1 class="text-6xl font-black mulish text-white">Welcome to the
+                            <br>
+                            <span class="gradient-blue">ReTro</span> Forum
+                        </h1>
+                        <p class="py-6 mulish text-xl font-medium text-[#FFFFFFCC]">Share your favorite opinion and win
+                            and wp <br> forum coffee mug!.</p>
+                        <div>
+                            <label class="input input-bordered pr-1 flex items-center gap-2 rounded-[50px]">
+                                <input type="text" class="grow " placeholder="Search here anything" />
+                                <span
+                                    class=" btn btn-bg min-h-0 h-10 rounded-[48px] text-xl font-bold mulish text-white">Search</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="bg-white text-[#12132DCC] p-12 rounded-[32px] flex flex-col gap-6">
+                        <div class="flex justify-between gap-14 text-2xl mulish font-medium">
+                            <div>Registered Users</div>
+                            <div>01</div>
+                        </div>
+                        <div class="flex justify-between gap-14 text-2xl mulish font-medium">
+                            <div>Forum</div>
+                            <div>01</div>
+                        </div>
+                        <div class="flex justify-between gap-14 text-2xl mulish font-medium">
+                            <div>Topics</div>
+                            <div>01</div>
+                        </div>
+                        <div class="flex justify-between gap-14 text-2xl mulish font-medium">
+                            <div>Replies</div>
+                            <div>01</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- lets discuss section -->
+
+        <section>
+            
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
     <script src="Scripts/scripts.js"></script>
 </body>
 
