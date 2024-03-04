@@ -19,3 +19,6 @@
 .btn-bg {
   background-color: #797dfc;
 }
+.footer-bg {
+    background-image: linear-gradient(180.00deg, rgba(18, 19, 45, 0.05), rgba(18, 19, 45, 0) 100%);
+}
