@@ -2,16 +2,20 @@
   font-family: "Mulish", sans-serif;
 }
 
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
 .hero-section {
-    background-image: url(images/bgbanner.png);
+  background-image: url(images/bgbanner.png);
 }
 
 .gradient-blue {
-    background: linear-gradient(to right, #797DFC, #122953);
-    background-clip: text;
-    color: transparent;
+  background: linear-gradient(to right, #797dfc, #122953);
+  background-clip: text;
+  color: transparent;
 }
 
 .btn-bg {
-    background-color: #797DFC;
+  background-color: #797dfc;
 }
