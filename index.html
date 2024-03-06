@@ -87,19 +87,19 @@
                     <div class="bg-white text-[#12132DCC] p-12 rounded-[32px] flex flex-col gap-6">
                         <div class="flex justify-between gap-14 text-2xl mulish font-medium">
                             <div>Registered Users</div>
-                            <div>01</div>
+                            <div>11</div>
                         </div>
                         <div class="flex justify-between gap-14 text-2xl mulish font-medium">
                             <div>Forum</div>
-                            <div>01</div>
+                            <div>15</div>
                         </div>
                         <div class="flex justify-between gap-14 text-2xl mulish font-medium">
                             <div>Topics</div>
-                            <div>01</div>
+                            <div>09</div>
                         </div>
                         <div class="flex justify-between gap-14 text-2xl mulish font-medium">
                             <div>Replies</div>
-                            <div>01</div>
+                            <div>17</div>
                         </div>
                     </div>
                 </div>
@@ -123,19 +123,19 @@
 
                 <!-- post section -->
 
-                <div class=" col-span-2 flex gap-6 flex-col ">
+                <div id="post-container" class=" col-span-2 flex gap-6 flex-col ">
 
                     <!-- dynamic part -->
 
-                    <div class="p-10 bg-[#797DFC19] rounded-3xl flex gap-6">
-                        <div class="">
+                    <div class=" hidden">
+                        <!-- <div class="">
                             <div class="avatar online">
                                 <div class="w-16 rounded-2xl">
                                     <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
                                 </div>
                             </div>
                         </div>
-                        <div class="">
+                        <div class="grow justify-start">
                             <div class="flex gap-5 inter font-medium text-sm">
                                 <p class=""># Music</p>
                                 <p>Author : Awlad Hossain</p>
@@ -143,53 +143,54 @@
                             <h3 class="mulish text-xl font-bold mt-3 mb-4">10 Kids Unaware of Their Halloween Costume
                             </h3>
                             <p class=" border-b-2 border-dashed border-gray-300 pb-5 inter ">It’s one thing to subject
-                                yourself to
-                                ha Halloween costume mishap because, hey that’s
-                                your prerogative
+                                
                             </p>
-                            <div class="flex gap-7 mt-6">
-                                <div class="flex gap-4 items-center">
-                                    <i class="fa-regular fa-message"></i>
-                                    <p>560</p>
+                            <div class="flex justify-between ">
+                                <div class="flex gap-7 pt-6 ">
+                                    <div class="flex gap-4 items-center">
+                                        <i class="fa-regular fa-message"></i>
+                                        <p>560</p>
+                                    </div>
+                                    <div class="flex gap-4 items-center">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <p>1,568</p>
+                                    </div>
+                                    <div class="flex gap-4 items-center">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <p>5 min</p>
+                                    </div>
+                                    
                                 </div>
-                                <div class="flex gap-4 items-center">
-                                    <i class="fa-regular fa-eye"></i>
-                                    <p>1,568</p>
-                                </div>
-                                <div class="flex gap-4 items-center">
-                                    <i class="fa-regular fa-clock"></i>
-                                    <p>5 min</p>
-                                </div>
-                                <div class="grow flex justify-end ">
+                                <div class=" flex items-center ">
                                     <a href=""><i class="fa-regular fa-envelope-open "></i></a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
                 <!-- title section -->
 
-                <div class="p-6 bg-[#12132D0D] rounded-3xl flex flex-col gap-4">
+                <div  class="p-6 bg-[#12132D0D] rounded-3xl flex flex-col gap-4 col-span-1">
                     <div class="flex justify-between mb-4">
                         <h3 class="mulish text-[#12132D] text-xl font-bold">Title</h3>
                         <div class="flex gap-2 items-center">
                             <i class="fa-solid fa-check-double text-green-700"></i>
-                            <p class="text-[#12132D99]">Mark as read ( <span>4</span> )</p>
+                            <p class="text-[#12132D99]">Mark as read ( <span id="reed-count">0</span> )</p>
                         </div>
                     </div>
 
                     <!-- dynamic part -->
 
-                    <div class="flex flex-col gap-2">
-                        <div class="bg-white flex justify-between p-4 rounded-2xl">
-                            <h4>10 Kids Unaware of Their Halloween Costume</h4>
+                    <div id="mark-as-reed-container" class="flex flex-col gap-2">
+                        <div class="   hidden">
+                            <!-- <h4>10 Kids Unaware of Their Halloween Costume</h4>
                             <div class="flex gap-2 items-center">
                                 <i class="fa-regular fa-eye"></i>
                                 <p>
                                     1,568
                                 </p>
-                            </div>
+                            </div> -->
                         </div>
 
                     </div>
@@ -206,7 +207,7 @@
                     <p class="text-[#FFFFFFCC] text-xl mulish">Share your favorite opinion and win and wp forum coffee
                         mug! Yes, you can run unit tests and view
                         the results directly within the app. </p>
-                    <button class="btn btn-bg text-white rounded-[50px] max-w-56">Registered Now</button>
+                    <button class="btn btn-bg text-white rounded-[50px] border-0 max-w-56">Registered Now</button>
                 </div>
                 <div>
                     <img src="images/joinforum.png" alt="">
@@ -224,8 +225,8 @@
                     features allow for a streamlined .
                 </p>
             </div>
-            <div class="flex gap-8 justify-center ">
-                <div class="card w-96 bg-base-100 shadow-xl">
+            <div id="latest-post-container" class="flex gap-8 justify-center ">
+                <!-- <div class="card w-96 bg-base-100 shadow-xl">
                     <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" /></figure>
                     <div class="card-body">
                         <div class="flex items-center gap-4">
@@ -248,7 +249,7 @@
                         </div>
 
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
     </main>
@@ -262,7 +263,7 @@
                 text. It has roots
                 <br> in a piece of classical Latin literature from 45 BC
             </p>
-            <div class="flex gap-9 justify-center py-8">
+            <div class="flex gap-9 justify-center text-2xl py-8">
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-square-instagram"></i>
@@ -271,7 +272,10 @@
             <p class="pt-12 border-t-2 ">2017, All Rights Reserved.</p>
         </div>
     </footer>
+    
     <script src="Scripts/scripts.js"></script>
+    <script src="Scripts/utility.js"></script>
+    
 </body>
 
 </html>
